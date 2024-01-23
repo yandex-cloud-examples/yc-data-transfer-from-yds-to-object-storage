@@ -1,5 +1,3 @@
-# Название сценария
+# Поставка данных из очереди Yandex Data Streams в Yandex Object Storage с помощью Yandex Data Transfer
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+С помощью сервиса [Data Transfer](https://cloud.yandex.ru/docs/data-transfer) вы можете перенести данные из потока [Data Streams](https://cloud.yandex.ru/docs/data-streams) в бакет [Object Storage](https://cloud.yandex.ru/docs/storage). Настройка через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/docs/data-transfer/tutorials/yds-to-objstorage), необходимый для настройки конфигурационный файл [data-transfer-yds-obj.tf](data-transfer-yds-obj.tf) расположен в этом репозитории.
